@@ -4,6 +4,10 @@
     <h1>My Cart</h1>
   </header>
 
+  <% unless enhanced_cart.length > 0 %>
+      <p>Oh no! You're cart is empty. Checkout our amazing <%= link_to "products", products_path %>!</p>
+  <% else %>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +52,6 @@
       <% end %>
     </div>
   </div>
+  <%end%> 
 
 </section>

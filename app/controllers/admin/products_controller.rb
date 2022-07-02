@@ -1,4 +1,13 @@
 class Admin::ProductsController < ApplicationController
+  
+  # before_action :authenticate
+
+  # def authenticate
+  #   authenticate_or_request_with_http_basic('Administration') do |username, password|
+  #     md5_of_password = Digest::MD5.hexdigest(password)
+  #     username == ENV['BASIC_AUTH_USERNAME'] && md5_of_password == ENV['BASIC_AUTH_PASSWORD']
+  #   end
+  # end
 
   def index
     @products = Product.order(id: :desc).all

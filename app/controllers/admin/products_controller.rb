@@ -1,5 +1,6 @@
 class Admin::ProductsController < ApplicationController
   
+  http_basic_authenticate_with name: "bob", password: "bob" 
   # before_action :authenticate
 
   # def authenticate

@@ -5,14 +5,6 @@ class Admin::CategoriesController < ApplicationController
   def index
     @categories = Category.order(id: :desc).all
   end
-  
-  # @categories = Category.all.collect(&:name)
-  
-  # puts ActiveRecord::Base.connection.columns('categories').map(&:name)
-  # puts Category.select('name').find_by(id: 1).to_s
-  # puts Category.all.collect(&:name)
-  # puts ActiveRecord::Base.connection.tables
-  # puts "HELLLO"
 
   def new
     @category = Category.new

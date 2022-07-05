@@ -37,4 +37,20 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
+- Sold out product
+  !["Soldout"](https://raw.githubusercontent.com/JoryLa/jungle/7f0cef75df4d787e38e39b43f3b07d951952c28d/public/images/sold-out.png)
 
+- Cart
+  !["Cart"](https://raw.githubusercontent.com/JoryLa/jungle/7f0cef75df4d787e38e39b43f3b07d951952c28d/public/images/cart.png)
+
+- Empty cart
+  !["Empty cart"](https://raw.githubusercontent.com/JoryLa/jungle/7f0cef75df4d787e38e39b43f3b07d951952c28d/public/images/empty-cart.png)
+
+- Order top
+  !["Order top"](https://raw.githubusercontent.com/JoryLa/jungle/7f0cef75df4d787e38e39b43f3b07d951952c28d/public/images/order-top.png)
+
+- Order bottom
+  !["Order bottom"](https://raw.githubusercontent.com/JoryLa/jungle/7f0cef75df4d787e38e39b43f3b07d951952c28d/public/images/order-bottom.png)
+
+- Admin categories
+  !["Admin categories"](https://raw.githubusercontent.com/JoryLa/jungle/7f0cef75df4d787e38e39b43f3b07d951952c28d/public/images/admin-cats.png)

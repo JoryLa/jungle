@@ -16,12 +16,19 @@ describe('Jungle App', () => {
     cy.get(".products article").should("have.length", 2);
   });
 
-  it ("Navigates to detail page when a product is clicked", () => {
-    cy.get(".product-name")
-      .first()
-      .click()
-  }); 
+  it("Clicks 'Add', cart increases by 1",  () => {
+    cy.contains("Add").click({force: true})
+  });
 
-
-
+  // describe("Testing add to cart", () => {
+  //   beforeEach(() => {
+  //     cy.visit("/");
+  //   });
+  
+  //   it("can click on the Add button", () => {
+  //     cy.get(".products article:first").find(".button_to").submit();
+  
+  //     cy.get(".nav-item.end-0").find(".nav-link").contains("1");
+  //   });
+  // }); 
 });

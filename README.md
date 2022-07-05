@@ -29,3 +29,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+# For testing:
+
+- Cypress-rails
+- database_cleaner-active_record
+
+## Screenshots
+
+
